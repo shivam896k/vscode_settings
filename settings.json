@@ -1,0 +1,54 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.autoSave": "afterDelay",
+    // "python.pythonPath": "/opt/anaconda3/bin/python",
+    "python.pythonPath": "/home/shivam/env/bin/python",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.inheritEnv": false,
+    "workbench.activityBar.visible": true,
+    "editor.quickSuggestions": {
+		"other": false,
+		"comments": false,
+		"strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    // "team.showWelcomeMessage": false,
+    // "editor.formatOnSave": true,
+    // "python.linting.pycodestyleEnabled": true,
+    // "python.linting.pylintPath": "/home/shivam/env/bin/pylint",
+    // "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ],
+    "python.analysis.disabled": [
+        "unresolved-import"
+    ],
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ],
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 20,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "files.exclude": {
+        "**/.vscode": true
+    },
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Monokai",
+    "diffEditor.renderSideBySide": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.views.compare.files.layout": "tree",
+}
