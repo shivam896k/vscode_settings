@@ -7,26 +7,25 @@
     "python.pythonPath": "/home/shivam/env/bin/python",
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
-    // "git.enableSmartCommit": true,
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.inheritEnv": false,
     "workbench.activityBar.visible": true,
 
-    // "editor.quickSuggestions": {
-	// 	"other": false,
-	// 	"comments": false,
-	// 	"strings": false
-    // },
+    "editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": false
+    },
+    "editor.parameterHints.enabled": true,
     // "editor.suggestOnTriggerCharacters": false,
-    // "team.showWelcomeMessage": false,
-    // "editor.formatOnSave": true,
     // "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "/home/shivam/env/bin/pylint",
     "python.linting.pylintEnabled": true,
-    // "python.linting.pylintArgs": [
-    //     "--load-plugins=pylint_django",
-    // ],
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+    ],
     // "python.analysis.disabled": [
     //     "unresolved-import"
     // ],
@@ -49,9 +48,10 @@
     "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Monokai",
     "diffEditor.renderSideBySide": true,
-    "gitlens.views.compare.files.layout": "tree",
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false,
     "python.jediEnabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.dataScience.askForKernelRestart": false,
 }
