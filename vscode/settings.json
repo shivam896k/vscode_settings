@@ -54,4 +54,5 @@
     "python.jediEnabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "python.dataScience.askForKernelRestart": false,
+    "workbench.editor.enablePreview": false,
 }
