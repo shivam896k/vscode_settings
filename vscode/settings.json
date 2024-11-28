@@ -10,7 +10,9 @@
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.inheritEnv": false,
-    "workbench.activityBar.visible": true,
+    "editor.guides.bracketPairs"
+: true,
+	"workbench.activityBar.visible": true,
 
     "editor.quickSuggestions": {
 		"other": true,
