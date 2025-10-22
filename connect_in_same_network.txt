@@ -1,1 +1,5 @@
+1. Run this command on local
+python -m http.server 6789 --bind 0.0.0.0
+
+2. Go to other computer in same network and in browser put {IP_ADDRESS}:6789
 
